@@ -1,0 +1,29 @@
+{
+  "name": "mongoose-ping",
+  "version": "0.1.0",
+  "description": "Express middleware for performing health check ping on mongoose connection with mongodb.",
+  "keywords": [
+    "mongoose",
+    "mongodb",
+    "ping",
+    "health",
+    "check",
+    "express",
+    "middleware",
+    "route",
+    "node",
+    "nodejs"
+  ],
+  "homepage": "https://github.com/dasfrosty/mongoose-ping",
+  "bugs": "https://github.com/dasfrosty/mongoose-ping/issues",
+  "license": "MIT",
+  "author": "Niels Godfredsen <ngodfredsen@gmail.com>",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dasfrosty/mongoose-ping.git"
+  },
+  "dependencies": {
+    "mongoose": "*"
+  }
+}
