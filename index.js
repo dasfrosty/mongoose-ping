@@ -1,8 +1,10 @@
-var mongoose = require('mongoose');
+var mongoose;
 
 
 module.exports = function (req, res, next) {
   try {
+    if (!mongoose)
+      mongoose = require('mongoose');
     mongoose.connection.db.admin().ping(function (err, result) {
       if (err || !result)
         return next(err || new Error('no ping result'));
